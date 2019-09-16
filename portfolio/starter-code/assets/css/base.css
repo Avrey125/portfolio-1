@@ -1,0 +1,62 @@
+/* @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
+@import url("https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap"); */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    font-family: Ruslan Display;
+    font-size: 19pt;
+    font-weight: 300;
+    line-height: 1.75em;
+    color: #888;
+}
+
+    body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+        -moz-animation: none !important;
+        -webkit-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -ms-transition: none !important;
+        transition: none !important;
+    }
+
+    footer {
+		margin: 2em 0 0 0;
+    }
+    
+    #main > section {
+        padding: 2em 0;
+    }
+
+    #main section.cover {
+        padding: 4em 0em;
+    }
+
+        #main section.cover header {
+            padding: 0 1em;
+        }
+
+/* Footer */
+
+    #footer .copyright li {
+        display: block;
+        line-height: 1.25em;
+        border: 0;
+        padding: 0;
+        margin: 1em 0 0 0;
+    }
+
+        #footer .copyright li:first-child {
+            margin-top: 0;
+        }
+
+}
